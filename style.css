@@ -1,0 +1,35 @@
+*{
+    padding:0;margin:0;
+}
+body{
+    font-family: Arial,sans-serif;
+    color:black;
+    line-height: 1;
+    font-size: 1rem;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin:0 auto;
+}
+.header_wrap{
+    background-color: black;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left:30px;
+}
+.no_decoration{
+    text-decoration: none;
+    color:white;
+}
+#h1_in_intro{
+    text-align: center;
+}
