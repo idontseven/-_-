@@ -3,6 +3,10 @@
     padding:0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .dfjc{
     display:flex;
     justify-content: center;
@@ -17,6 +21,10 @@
 
 .nd{
     text-decoration: none;
+}
+
+.two_life_your_divan{
+    font-weight:300px;
 }
 
 body{
@@ -184,7 +192,7 @@ body{
     transition-duration:1s;
     width: 12%;
     background: white;
-    border:10px dotted red;
+    border:10px solid red;
     border-radius:20px;
 }
 
@@ -214,17 +222,14 @@ body{
     padding-top:100px;
 }
 
+
 .our_works_photoes{
     width:100%;
-    height:auto;
+    height:339px;
 }
 
 .div_in_contact{
     width: 100%;
     height: auto;
     background: #212121;
-}
-
-.margin_div{
-    margin-top:20px;
 }
