@@ -23,9 +23,6 @@ html{
     text-decoration: none;
 }
 
-.two_life_your_divan{
-    font-weight:300px;
-}
 
 body{
     font-family: 'Montserrat',Arial,sans-serif;
@@ -101,8 +98,8 @@ body{
 .Intro p{
     padding-top:70px;
     text-align:center;
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 300;
     color:#7a7a7a;
 }
 
@@ -214,8 +211,7 @@ body{
     width:50%;
     text-align: center;
     color:black;
-    font-family: 'Raleway', sans-serif; ;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .Our_works{
