@@ -87,7 +87,6 @@
         flex:auto;
         transform: all;
         transition-duration: 1s;
-        transform: translate(70px,20px);
         scale:1.3;
     }
 }
@@ -133,7 +132,7 @@
     .our_works_photoes{
         width:75%;
         height:auto;
-        border:5px solid black;
+        border:1px solid black;
     }
     #dotted_nav{
         display:block;
@@ -168,13 +167,14 @@
         left: -350px;
         top: 0;
         width: 300px;
-        height: 200px;
+        height: 300px;
         background-color: black;
-        padding: 75px 20px 20px 20px;
+        padding: 75px 30px 20px 20px;
         transition: transform .5s;
     }
     .menu__list {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     .menu__link {
         color: white;
@@ -216,7 +216,7 @@
         border:5px solid red;
     }
     a.nd.dfjc.check_price1{
-        font-size:12px;
+        font-size:8px;
     }
     p.df.our_premisions{
         font-size:18px;
@@ -230,6 +230,7 @@
     }
     .start_position_p{
         font-size: 16px;
+        line-height: 1.5;
     }
     .start_position_p_grey{
         font-size: 10px;
@@ -241,7 +242,15 @@
 }
 
 @media (max-width:200px){
-
+    .nav_nav_div{
+        border:5px dotted black
+    }
+    .menu{
+        height: 300px;
+    }
+    div.container.header__container{
+        margin-right:30px;
+    }
     h1{
         font-size: 8px;
     }
@@ -255,11 +264,11 @@
         font-size:8px;
     }
     #div_in_price{
-        width:50%;
+        width:30%;
     }
     #div_in_price:hover{
-        width:40%;
-        border:2px solid red;
+        width:60%;
+        border:5px solid red;
     }
     .check_price1{
         font-size:6px;
@@ -271,7 +280,7 @@
         border:4px dotted black
     }
     .logo_imagine{
-        width:25%;
+        width:30%;
         height: auto;
     }
     p.df.dfjc.About_us_p{
@@ -279,9 +288,10 @@
     }
     .start_position_p{
         font-size: 8px;
+        line-height: 1.2;
     }
     .start_position_p_grey{
-        font-size: 5px;
+        font-size: 6px;
     }
     .autro_text{
         font-size:8px;
@@ -296,6 +306,7 @@
         font-size:16px;
     }
     .contact_p2{
+        text-align: center;
         font-size: 13px;
     }
     .contact_p3{
