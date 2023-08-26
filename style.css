@@ -77,8 +77,10 @@ body{
 .main1{
     background: white center center no-repeat; 
     background-size: cover;
-    padding:100 0 145 0;
-    padding-bottom:105px;
+    margin-bottom:295px;
+}
+.main2{
+    margin-bottom: 295px;
 }
 .h1_in_intro{
     display:flex;
@@ -222,7 +224,7 @@ body{
 }
 
 .Our_works{
-    padding-top:100px;
+    margin-bottom:310px;
 }
 
 
@@ -235,4 +237,20 @@ body{
     width: 100%;
     height: auto;
     background: #212121;
+}
+
+.table1{
+    padding-left:100px; 
+    padding-top:30px;
+    padding-right:30px
+}
+
+#div_div_div_photo{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.nav_nav_div{
+    border:10px dotted black;
+    border-radius: 20px;
 }
