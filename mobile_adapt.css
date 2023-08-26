@@ -161,4 +161,43 @@
         width:100%;
         display:flex
     }
+    h1{
+        font-size: 12px;
+    }
+    #h1_in_intr{
+        font-size: 18px;
+    }
+    p.two_life_your_divan{
+        font-size:10px;
+    }
+    div .div_porvanka{
+        font-size:12px;
+    }
+    #div_in_price:hover{
+        width:40%;
+        border:5px solid red;
+    }
+    .check_price1{
+        font-size:12px;
+    }
+    p.df.our_premisions{
+        font-size:18px;
+    }
+    .nav_nav_div{
+        border:10px dotted black
+    }
+    .logo_imagine{
+        width:20%;
+        height: auto;
+    }
+    .start_position_p{
+        font-size: 16px;
+    }
+    .start_position_p_grey{
+        font-size: 10px;
+    }
+    .autro_text{
+        font-size:14px;
+    }
+    
 }
