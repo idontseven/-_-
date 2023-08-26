@@ -5,6 +5,7 @@
 
 html{
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .dfjc{
@@ -121,6 +122,12 @@ body{
 .div_porvanka{
     text-align: center;
     width:40%;
+}
+
+.image_ds{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .d-d-d{
