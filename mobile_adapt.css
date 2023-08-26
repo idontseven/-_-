@@ -1,9 +1,11 @@
-@media (max-width:300px){
-    .table_nav{
-        display:none;
+@media (max-width:3000px){
+    .DIV{
+        display: flex;
+        justify-content: center;
     }
-    .dotted_nav{
-        display:none;
+    .our_works_photoes{
+        width: 50%;
+        height: auto;
     }
 }
 
@@ -151,5 +153,12 @@
 @media (max-width:560px){
     #h1_in_intr{
         width:100%;
+    }
+}
+
+@media (max-width:300px){
+    .header{
+        width:100%;
+        display:flex
     }
 }
