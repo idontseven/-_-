@@ -1,0 +1,24 @@
+@media screen and (max-width:1208px){
+    #div_in_price {
+        width:15%;
+    }
+
+    .start_position_p{
+        line-height: 1;
+    }
+
+    .autro_text{
+        width:75%;
+    }
+}
+@media screen and (max-width:1117px){
+    #h1_in_intr{
+        width:65%;
+    }
+}
+
+@media screen and (max-width:895px) {
+    .menu li a{
+        display: none;
+    }
+}
