@@ -157,12 +157,50 @@
 }
 
 @media (max-width:300px){
+    div.container.header__container{
+        margin-right:20px;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 300px;
+        height: 200px;
+        background-color: black;
+        padding: 75px 20px 20px 20px;
+        transition: transform .5s;
+    }
+    .menu__list {
+        display: block;
+    }
+    .menu__link {
+        color: white;
+        font-size: 12px;
+        display: block;
+        padding: 10px 0;
+    }
+    .header.open .menu {
+        transform: translateX(100%);
+    }
+    .menu__link {
+        font-size:12px;
+    }
+    .header__burger-btn{
+        width:15px;
+        height: 15px;
+    }
     .header{
         width:100%;
-        display:flex
+        display:flex;
+        padding:20px 5px
     }
-    h1{
-        font-size: 12px;
+    .h1_in_in{
+        margin:0;
+        font-size:10px;
+        font-weight: 400;
     }
     #h1_in_intr{
         font-size: 18px;
@@ -177,7 +215,7 @@
         width:40%;
         border:5px solid red;
     }
-    .check_price1{
+    a.nd.dfjc.check_price1{
         font-size:12px;
     }
     p.df.our_premisions{
@@ -199,5 +237,72 @@
     .autro_text{
         font-size:14px;
     }
-    
+
+}
+
+@media (max-width:200px){
+
+    h1{
+        font-size: 8px;
+    }
+    #h1_in_intr{
+        font-size: 12px;
+    }
+    p.two_life_your_divan{
+        font-size:6px;
+    }
+    div .div_porvanka{
+        font-size:8px;
+    }
+    #div_in_price{
+        width:50%;
+    }
+    #div_in_price:hover{
+        width:40%;
+        border:2px solid red;
+    }
+    .check_price1{
+        font-size:6px;
+    }
+    p.df.our_premisions{
+        font-size:14px;
+    }
+    .nav_nav_div{
+        border:4px dotted black
+    }
+    .logo_imagine{
+        width:25%;
+        height: auto;
+    }
+    p.df.dfjc.About_us_p{
+        font-size:22px;
+    }
+    .start_position_p{
+        font-size: 8px;
+    }
+    .start_position_p_grey{
+        font-size: 5px;
+    }
+    .autro_text{
+        font-size:8px;
+    }
+    .our_works_p{
+        font-size:16px;
+    }
+    .presention{
+        font-size: 12px;
+    }
+    .contact_p1{
+        font-size:16px;
+    }
+    .contact_p2{
+        font-size: 13px;
+    }
+    .contact_p3{
+        font-size: 15px;
+    }
+    .header__burger-btn span {
+        width: 30px;
+        height: 2.5px;
+    }
 }
