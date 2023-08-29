@@ -7,6 +7,12 @@
         width: 50%;
         height: auto;
     }
+    p.df.dfjc.About_us_p{
+        font-size:40px;
+    }
+    p.our_works_p{
+        font-size: 40px;
+}
 }
 
 @media (max-width: 975px) {
@@ -241,17 +247,112 @@
 
 }
 
-@media (max-width:200px){
+@media (max-width:400px){
+    div.img_photo_divan{
+        display:flex;
+        justify-content: center
+    }
+    img .img_photo_divan{
+        width:80%;
+    }
+    .header{
+        width:100%
+    }
+    #div_div_div_photo{
+        width: 70%;
+    }
     .nav_nav_div{
-        border:5px dotted black
+        border:3px dotted black;
+        width: 80%;
     }
     .menu{
         height: 300px;
     }
-    div.container.header__container{
-        margin-right:30px;
+    h1.h1_in_in{
+        font-size: 16px;
     }
-    h1{
+    #h1_in_intr{
+        font-size: 18px;
+        width: 75%;
+    }
+    p.two_life_your_divan{
+        font-size:8px;
+    }
+    div .div_porvanka{
+        font-size:8px;
+        width:50%;
+    }
+    div #div_in_price{
+        width:30%;
+        border:10px solid red;
+    }
+    #div_in_price:hover{
+        width:30%;
+        border:4px solid red;
+    }
+    .check_price1{
+        font-size:6px;
+    }
+    p.df.our_premisions{
+        font-size:10px;
+    }
+    .nav_nav_div{
+        border:4px dotted black
+    }
+    .logo_imagine{
+        width:30%;
+        height: auto;
+    }
+    p.df.dfjc.About_us_p{
+        font-size:12px;
+    }
+    .start_position_p{
+        font-size: 8px;
+        line-height: 1.2;
+    }
+    .start_position_p_grey{
+        font-size: 6px;
+    }
+    .autro_text{
+        font-size:8px;
+        width: 70%;
+    }
+    .our_works_p{
+        font-size:16px;
+    }
+    .presention{
+        font-size: 12px;
+    }
+    .contact_p1{
+        font-size:16px;
+    }
+    .contact_p2{
+        text-align: center;
+        font-size: 13px;
+    }
+    .contact_p3{
+        font-size: 15px;
+    }
+    .header__burger-btn span {
+        width: 30px;
+        height: 2.5px;
+    }
+}
+
+@media (max-width:200px){
+
+    .nav_nav_div{
+        border:5px dotted black;
+        width: 85%;
+    }
+    .menu{
+        height: 250px;
+        padding:20px
+    }
+    div.container.header__container{
+        margin-right:20px;
+    }
+    h1.h1_in_in{
         font-size: 8px;
     }
     #h1_in_intr{
@@ -262,9 +363,11 @@
     }
     div .div_porvanka{
         font-size:8px;
+        margin-right: 15px;
     }
-    #div_in_price{
-        width:30%;
+    div #div_in_price{
+        width:80%;
+        margin-right: 10px;
     }
     #div_in_price:hover{
         width:60%;
@@ -274,10 +377,10 @@
         font-size:6px;
     }
     p.df.our_premisions{
-        font-size:14px;
+        font-size:10px;
     }
     .nav_nav_div{
-        border:4px dotted black
+        border:2px dotted black
     }
     .logo_imagine{
         width:30%;
@@ -307,13 +410,18 @@
     }
     .contact_p2{
         text-align: center;
-        font-size: 13px;
+        font-size: 9px;
+        margin-right: 10px;
     }
     .contact_p3{
-        font-size: 15px;
+        font-size: 10px;
+        margin-right:10px
     }
     .header__burger-btn span {
-        width: 30px;
+        width: 20px;
         height: 2.5px;
+    }
+    #div_div_div_photo{
+        width: 90%;
     }
 }
