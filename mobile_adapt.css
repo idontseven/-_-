@@ -15,32 +15,6 @@
 }
 }
 
-@media (max-width: 975px) {
-    .header__burger-btn {
-        display: block;
-    }
-    .menu {
-        position: absolute;
-        left: -350px;
-        top: 0;
-        width: 350px;
-        background-color: black;
-        padding: 75px 20px 20px 20px;
-        transition: transform .5s;
-    }
-    .menu__list {
-        display: block;
-    }
-    .menu__link {
-        color: white;
-        font-size: 21px;
-        display: block;
-        padding: 10px 0;
-    }
-    .header.open .menu {
-        transform: translateX(100%);
-    }
-}
 @media (max-width: 1550px){
     div#div_in_price{
         width:20%;
@@ -49,7 +23,6 @@
         box-sizing: unset;
     }
 }
-
 @media (max-width: 1200px){
     .div_porvanka{
         width:60%;
@@ -65,7 +38,6 @@
         margin-left:40px;
     }
 }
-
 @media (max-width:998px){
     #h1_in_intr{
         width:75%;
@@ -96,7 +68,32 @@
         scale:1.3;
     }
 }
-
+@media (max-width: 975px) {
+    .header__burger-btn {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 350px;
+        background-color: black;
+        padding: 75px 20px 20px 20px;
+        transition: transform .5s;
+    }
+    .menu__list {
+        display: block;
+    }
+    .menu__link {
+        color: white;
+        font-size: 21px;
+        display: block;
+        padding: 10px 0;
+    }
+    .header.open .menu {
+        transform: translateX(100%);
+    }
+}
 @media (max-width:800px){
     .menu{
         margin-left:-40px;
@@ -104,6 +101,14 @@
     .menu__item{
         border:5px solid black;
         margin-bottom: 20px;
+    }
+}
+@media (min-width:700px){
+    div.flex_flex_flex{
+        display:none;
+    }
+    #table_nav{
+        display:block;
     }
 }
 @media (max-width:700px){
@@ -147,106 +152,11 @@
         display:none;
     }
 }
-@media (min-width:700px){
-    #dotted_nav{
-        display:none;
-    }
-    #table_nav{
-        display:block;
-    }
-}
 @media (max-width:560px){
     #h1_in_intr{
         width:100%;
     }
 }
-
-@media (max-width:300px){
-    div.container.header__container{
-        margin-right:20px;
-    }
-    .header__burger-btn {
-        display: block;
-    }
-    .menu {
-        position: absolute;
-        left: -350px;
-        top: 0;
-        width: 300px;
-        height: 300px;
-        background-color: black;
-        padding: 75px 30px 20px 20px;
-        transition: transform .5s;
-    }
-    .menu__list {
-        display: flex;
-        flex-direction: column;
-    }
-    .menu__link {
-        color: white;
-        font-size: 12px;
-        display: block;
-        padding: 10px 0;
-    }
-    .header.open .menu {
-        transform: translateX(100%);
-    }
-    .menu__link {
-        font-size:12px;
-    }
-    .header__burger-btn{
-        width:15px;
-        height: 15px;
-    }
-    .header{
-        width:100%;
-        display:flex;
-        padding:20px 5px
-    }
-    .h1_in_in{
-        margin:0;
-        font-size:10px;
-        font-weight: 400;
-    }
-    #h1_in_intr{
-        font-size: 18px;
-    }
-    p.two_life_your_divan{
-        font-size:10px;
-    }
-    div .div_porvanka{
-        font-size:12px;
-    }
-    #div_in_price:hover{
-        width:40%;
-        border:5px solid red;
-    }
-    a.nd.dfjc.check_price1{
-        font-size:8px;
-    }
-    p.df.our_premisions{
-        font-size:18px;
-    }
-    .nav_nav_div{
-        border:10px dotted black
-    }
-    .logo_imagine{
-        width:20%;
-        height: auto;
-    }
-    .start_position_p{
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    .start_position_p_grey{
-        font-size: 10px;
-    }
-    .autro_text{
-        font-size:14px;
-    }
-
-}
-
 @media (max-width:400px){
     div.img_photo_divan{
         display:flex;
@@ -259,11 +169,12 @@
         width:100%
     }
     #div_div_div_photo{
-        width: 70%;
+        width: 100%;
     }
-    .nav_nav_div{
+    nav .nav_nav_div{
         border:3px dotted black;
-        width: 80%;
+        width: 90%;
+        justify-content: center;
     }
     .menu{
         height: 300px;
@@ -304,24 +215,24 @@
         height: auto;
     }
     p.df.dfjc.About_us_p{
-        font-size:12px;
+        font-size:22px;
     }
     .start_position_p{
-        font-size: 8px;
+        font-size: 12px;
         line-height: 1.2;
     }
     .start_position_p_grey{
-        font-size: 6px;
+        font-size: 10px;
     }
     .autro_text{
         font-size:8px;
         width: 70%;
     }
-    .our_works_p{
-        font-size:16px;
+    p.our_works_p{
+        font-size:20px;
     }
     .presention{
-        font-size: 12px;
+        font-size: 8px;
     }
     .contact_p1{
         font-size:16px;
@@ -338,19 +249,125 @@
         height: 2.5px;
     }
 }
-
+@media (max-width:300px){
+    .header__container{
+        margin-right:20px;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        padding: 75px 30px 20px 20px;
+        transition: transform .5s;
+    }
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu__link {
+        color: white;
+        font-size: 12px;
+        display: block;
+        padding: 10px 0;
+    }
+    .header.open .menu {
+        transform: translateX(100%);
+    }
+    .menu__link {
+        font-size:12px;
+    }
+    .header__burger-btn{
+        width:15px;
+        height: 15px;
+    }
+    .header{
+        width:100%;
+        display:flex;
+        padding:20px 5px
+    }
+    h1.h1_in_in{
+        margin:0;
+        font-size:10px;
+        font-weight: 500;
+    }
+    #h1_in_intr{
+        font-size: 18px;
+        width: 100%;
+    }
+    p.two_life_your_divan{
+        font-size:10px;
+    }
+    div .div_porvanka{
+        font-size:10px;
+        width:80%;
+    }
+    #div_in_price{
+        width:60%;
+    }
+    #div_in_price:hover{
+        width:40%;
+        border:5px solid red;
+    }
+    a.nd.dfjc.check_price1{
+        font-size:8px;
+    }
+    p.df.our_premisions{
+        font-size:15px;
+    }
+    .nav_nav_div{
+        border:2px dotted black
+    }
+    .logo_imagine{
+        width:20%;
+        height: auto;
+    }
+    .start_position_p{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .start_position_p_grey{
+        font-size: 8px;
+    }
+    .autro_text{
+        font-size:14px;
+        width:100%;
+    }
+}
 @media (max-width:200px){
-
+    .header__container{
+        margin-right:0px;
+        padding-top: 0px;
+    }
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .nav_nav_div{
         border:5px dotted black;
         width: 85%;
     }
     .menu{
         height: 250px;
-        padding:20px
+        padding:20px;
+        width: 290px;
     }
-    div.container.header__container{
-        margin-right:20px;
+    .menu__item{
+        border:none;
+        margin-bottom: 5px;
+    }
+    .check_price{
+        padding-left:20px;
+    }
+    .check_price p{
+        border:9px solid #009975;
+        font-size:6px;
     }
     h1.h1_in_in{
         font-size: 8px;
@@ -359,28 +376,31 @@
         font-size: 12px;
     }
     p.two_life_your_divan{
-        font-size:6px;
+        font-size:8px;
     }
     div .div_porvanka{
         font-size:8px;
-        margin-right: 15px;
+        width: 100%;
     }
     div #div_in_price{
         width:80%;
-        margin-right: 10px;
     }
     #div_in_price:hover{
-        width:60%;
+        width:80%;
         border:5px solid red;
     }
     .check_price1{
         font-size:6px;
     }
     p.df.our_premisions{
-        font-size:10px;
+        font-size:9px;
     }
     .nav_nav_div{
-        border:2px dotted black
+        border:2px dotted black;
+    }
+    .flex_flex_flex{
+        display:flex;
+        justify-content: center;
     }
     .logo_imagine{
         width:30%;
